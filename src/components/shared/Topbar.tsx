@@ -13,7 +13,7 @@ function Topbar() {
       </Link>
 
       <div className='flex items-center gap-1'>
-        <div className='block '>
+        <div className='block md:hidden'>
           <h1>Hello</h1>
           <SignedIn>
             <SignOutButton>
